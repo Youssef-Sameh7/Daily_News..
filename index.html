@@ -1,0 +1,274 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8"><meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<meta
+    name="description"
+    content="Daily News - Latest news from politics, sports, movies, technology, economy and more"
+>
+
+<title>Daily News</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+>
+
+<link rel="stylesheet" href="style.css">
+
+</head><body><!-- HEADER --><header class="header"><div class="container header-content">
+
+    <div class="logo">
+
+        <div class="logo-icon">
+            D
+        </div>
+
+        <div>
+            <h1>Daily News</h1>
+
+            <p>
+                Your daily source for the latest news
+            </p>
+        </div>
+
+    </div>
+
+    <div class="date">
+        September 10, 2026
+    </div>
+
+</div>
+
+</header><!-- NAVIGATION --><nav class="navbar"><div class="container nav-container">
+
+    <button
+        class="nav-btn active"
+        type="button"
+        onclick="filterNews('All')"
+    >
+        All
+    </button>
+
+    <button
+        class="nav-btn"
+        type="button"
+        onclick="filterNews('Politics')"
+    >
+        Politics
+    </button>
+
+    <button
+        class="nav-btn"
+        type="button"
+        onclick="filterNews('Economy')"
+    >
+        Economy
+    </button>
+
+    <button
+        class="nav-btn"
+        type="button"
+        onclick="filterNews('Sports')"
+    >
+        Sports
+    </button>
+
+    <button
+        class="nav-btn"
+        type="button"
+        onclick="filterNews('Movies')"
+    >
+        Movies
+    </button>
+
+    <button
+        class="nav-btn"
+        type="button"
+        onclick="filterNews('Technology')"
+    >
+        Technology
+    </button>
+
+    <button
+        class="nav-btn"
+        type="button"
+        onclick="filterNews('World')"
+    >
+        World
+    </button>
+
+    <button
+        class="nav-btn"
+        type="button"
+        onclick="filterNews('Health')"
+    >
+        Health
+    </button>
+
+    <button
+        class="nav-btn"
+        type="button"
+        onclick="filterNews('Entertainment')"
+    >
+        Entertainment
+    </button>
+
+</div>
+
+</nav><!-- BREAKING NEWS --><section class="breaking"><div class="container breaking-content">
+
+    <span class="breaking-label">
+        🔴 BREAKING
+    </span>
+
+    <span>
+        Latest stories from around the world
+    </span>
+
+</div>
+
+</section><!-- MAIN --><main><!-- FEATURED -->
+
+<section class="hero container">
+
+    <div class="hero-content">
+
+        <span class="featured-label">
+            FEATURED STORY
+        </span>
+
+        <h2 id="featuredTitle">
+            The Latest Stories Making Headlines Around the World
+        </h2>
+
+        <p id="featuredDescription">
+            Discover the latest developments in politics,
+            sports, movies, technology, business and more.
+        </p>
+
+        <button
+            class="read-button"
+            type="button"
+            onclick="openFeaturedNews()"
+        >
+            Read Full Story →
+        </button>
+
+    </div>
+
+
+    <div class="hero-image">
+
+        <img
+            id="featuredImage"
+            src=""
+            alt="Featured news"
+        >
+
+    </div>
+
+</section>
+
+
+<!-- NEWS -->
+
+<section class="news-section container">
+
+    <div class="section-title">
+
+        <div>
+
+            <span>
+                DAILY NEWS
+            </span>
+
+            <h2 id="sectionTitle">
+                Latest News
+            </h2>
+
+        </div>
+
+        <p id="newsCount">
+            0 Articles
+        </p>
+
+    </div>
+
+
+    <div
+        class="news-grid"
+        id="newsGrid"
+    >
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section
+    class="about container"
+    id="about"
+>
+
+    <span>
+        ABOUT DAILY NEWS
+    </span>
+
+    <h2>
+        News That Matters. Every Day.
+    </h2>
+
+    <p>
+        Daily News brings together stories from politics,
+        business, sports, movies, technology, world news,
+        health and entertainment.
+    </p>
+
+</section>
+
+</main><!-- FOOTER --><footer class="footer"><div class="container footer-content">
+
+    <div>
+
+        <h2>
+            Daily News
+        </h2>
+
+        <p>
+            Your daily source for the latest news.
+        </p>
+
+    </div>
+
+
+    <div class="footer-links">
+
+        <a href="#">
+            Home
+        </a>
+
+        <a href="#newsGrid">
+            News
+        </a>
+
+        <a href="#about">
+            About
+        </a>
+
+    </div>
+
+</div>
+
+
+<div class="copyright">
+    © 2026 Daily News. All Rights Reserved.
+</div>
+
+</footer><script src="script.js"></script></body></html>
